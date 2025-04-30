@@ -2,7 +2,7 @@
   <div ref="LeafletMap" class="absolute z-0 top-0 left-0 w-screen h-screen bg-gray-800" />
 
   <div class="absolute z-30 top-4 left-4 bg-gray-900 backdrop-blur-md text-gray-100 p-3 rounded-lg shadow-md text-sm opacity-70">
-    <a href="https://posgen.app" target="_blank" class="hover:underline font-semibold">
+    <a href="https://posgen.info" target="_blank" class="hover:underline font-semibold">
       🚀 Bu harita <span class="text-red-400">Posgen</span> ile güçlendirilmiştir
     </a>
   </div>
