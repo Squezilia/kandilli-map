@@ -5,7 +5,7 @@ import Earthquake from '../types/Earthquake';
 
 const url = 'http://www.koeri.boun.edu.tr/scripts/lst0.asp'
 
-export default async function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(_req: VercelRequest, res: VercelResponse) {
   const { data: html } = await axios.get(url)
   const $ = parse(html)
   const rawText = $.querySelector("pre")?.text || ""
